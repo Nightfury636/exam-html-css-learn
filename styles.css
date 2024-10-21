@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.header {
+    background-color: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.text-info {
+    width: 509px;
+}
+
+
+
+.text-h1 {
+    width: 475px;
+    color: #222;
+    font-family: Poppins, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #222;
+    font-family: Poppins, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.social-links {
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+
+.social-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.download {
+    color: rgba(34, 34, 34, 0.50);
+    font-family: Poppins, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+}
+
+.request {
+    background-color: #f44;
+    color: #fff;
+}
+
+
+.profile-img {
+    border-radius: 50%;
+    width: 406px;
+    height: 406px;
+    object-fit: cover;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #ff7043;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.project-text {
+    color: #fff;
+    max-width: 50%;
+}
+
+.project-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.project-text p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.project-img {
+    width: 200px;
+}
